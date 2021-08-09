@@ -1,0 +1,101 @@
+body {
+	background-image: url('images/dollarbackground.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+header h1 {
+	font-size: 7em;
+	font-weight: bolder;
+    font-family: "Brush Script MT", "Brush Script Std", cursive;
+	color: rgb(0, 128, 0);
+	text-align: center;
+	margin-top: 20px;
+	padding-right: 50px;
+}
+
+header h2 {
+	font-size: 2.5em;
+	color: black;
+	text-align: center;
+	padding-right: 48px;
+}
+
+section#left-sidebar {
+	width: 240px;
+	float: left;
+	position: relative;
+	display: block;
+	background-color: lightgreen;
+	margin: 1.5em 0 2.5em 1.5em;
+	padding: 1em .5em 1.5em 1em;
+}
+
+section#main {
+	background-color: lightgrey;
+	text-align: center;
+	margin: auto;
+	padding: 1em 1em 1em 1em;
+	display: inline-block;
+	border-radius: 2em;
+}
+
+section div.panel {
+	float: left;
+	position: relative;
+	width: 250px;
+	margin: 0 .5em 1em .5em;
+	padding: 1em;
+	background-color: rgb(156, 157, 158);
+	border: rgb(204, 204, 204) solid 1px;
+	border-radius: .75em;
+}
+
+section#right-sidebar {
+	width: 240px;
+	float: right;
+	position: relative;
+	display: block;
+	background-color: lightgreen;
+	margin: 1.5em 0 2.5em 1.5em;
+	padding: 1em .5em 1.5em 1em;
+}
+
+div.center-content {
+	display: flex;
+	justify-content: center;
+}
+
+div.clear {
+	clear:both;
+	font-size: 1%;
+}
+
+footer {
+	background-color: rgb(2, 21, 77);
+	height: 25px;
+	font: 1em sans-serif;
+	color: red;
+	text-align: center;
+	padding: 2em 2em;
+}
+
+footer ul#menuFooter {
+	display: inline-block;
+	list-style: none;
+	margin: 0 0 0 .5em;
+	padding: 0;
+}
+
+footer ul li {
+	display: inline-block;
+	margin: 0 0 0 .5em;
+	padding: 0;
+}
+
+footer ul li::before {
+	content: "| ";
+	padding-right: .5em;
+
+}
