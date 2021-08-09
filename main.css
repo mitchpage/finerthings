@@ -27,7 +27,7 @@ section#left-sidebar {
 	float: left;
 	position: relative;
 	display: block;
-	background-color: lightgreen;
+	background-color: rgb(238, 161, 59);
 	margin: 1.5em 0 2.5em 1.5em;
 	padding: 1em .5em 1.5em 1em;
 }
@@ -57,7 +57,7 @@ section#right-sidebar {
 	float: right;
 	position: relative;
 	display: block;
-	background-color: lightgreen;
+	background-color: rgb(238, 161, 59);
 	margin: 1.5em 0 2.5em 1.5em;
 	padding: 1em .5em 1.5em 1em;
 }
